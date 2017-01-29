@@ -9,6 +9,6 @@ public class Circle
 		
 		System.out.println("The radius is " + radius);
 		System.out.println("The area is " + formatter.format(Math.PI * Math.pow(radius, 2)));
-		System.out.println("The diameter is " + radius * 2);
+		System.out.println("The diameter is " + radius * 2); //Incorrect. It should be radius * 2 * Math.PI, you should also use formatter
 	}
 }
