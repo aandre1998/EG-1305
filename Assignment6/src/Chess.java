@@ -1,5 +1,4 @@
 import java.math.BigInteger;
-
 public class Chess {
 
 	public static void main(String[] args) {
